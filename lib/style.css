@@ -70,6 +70,13 @@ img {
   /* background-color: 0,0,0,0.5 */
   background-color: grey;
   margin: 100px 50px 100px 300px;
+  text-align: center;
+  padding-top: 200px;
 
 
+}
+.hero-image {
+  height: 300px;
+  width: 300px;
+  border-radius: 0;
 }
