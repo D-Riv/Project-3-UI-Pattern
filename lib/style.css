@@ -17,6 +17,9 @@ header {
   height: 700px;
   /* position: fixed; */
 }
+main {
+  /* background-image: url(/images/vaultimage1.png); */
+}
 li {
   padding: 20px;
   list-style-type: none;
@@ -46,7 +49,7 @@ li {
   justify-content: center;
   align-items: center;
   border: 1px none;
-  box-shadow: 5px 5px 5px 5px #888888;
+  box-shadow: 15px 15px 20px 15px #888888;
   -webkit-transform: rotateZ(3600deg);
       -moz-transform: rotateZ(360deg);
       transform: rotateZ(360deg) scale(1.1);
@@ -68,8 +71,8 @@ li {
   transform: translate(-50%, -50%);
 }  */
 img {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
 }
 .headerTitle {
@@ -90,13 +93,13 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 30px 1px;
-  background-color: #cccccc;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 .gridImage {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 50px 0;
 }
 .modal {
   display: none;
@@ -109,11 +112,12 @@ img {
   overflow: auto;
   /* background-color: 0,0,0,0.5 */
   background-color: #f4f4f4;
-  margin: 100px 50px 100px 300px;
+  margin: 100px 50px 100px 600px;
   text-align: center;
   /* padding-top: 200px; */
   box-shadow: 5px 5px 5px 5px #888888;
   border-radius: 2%;
+  
 
 }
 .hero-image {
@@ -132,4 +136,7 @@ img {
   color: #000000;
   text-decoration: none;
   cursor: pointer;
+}
+.headers {
+  text-align: center;
 }
