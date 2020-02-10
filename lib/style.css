@@ -20,6 +20,19 @@ header {
 main {
   /* background-image: url(/images/vaultimage1.png); */
 }
+footer {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  background-color: #000000;
+  color: #ffffff;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+}
 li {
   padding: 20px;
   list-style-type: none;
@@ -32,6 +45,12 @@ li {
   font-size: 20px;
   
 }
+.li:hover {
+  color: #7c7c7c;
+  cursor: pointer;
+}
+
+
 .pop-up {
   text-decoration: none;
   border-radius: 50%;
@@ -51,8 +70,9 @@ li {
   border: 1px none;
   box-shadow: 15px 15px 20px 15px #888888;
   -webkit-transform: rotateZ(3600deg);
-      -moz-transform: rotateZ(360deg);
-      transform: rotateZ(360deg) scale(1.1);
+  -moz-transform: rotateZ(360deg);
+  transform: rotateZ(360deg) scale(1.1);
+  
       
   
 }
@@ -111,7 +131,7 @@ img {
   height: 500px;
   overflow: auto;
   /* background-color: 0,0,0,0.5 */
-  background-color: #f4f4f4;
+  background-color: #b43c6d;
   margin: 100px 50px 100px 600px;
   text-align: center;
   /* padding-top: 200px; */
