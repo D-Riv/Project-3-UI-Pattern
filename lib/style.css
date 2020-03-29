@@ -126,7 +126,7 @@ img {
   overflow: auto;
   /* background-color: 0,0,0,0.5 */
   background-color: #ffffff;
-  margin: 100px 50px 100px 350px;
+  margin: 100px 50px 100px 570px;
   text-align: center;
   /* padding-top: 200px; */
   box-shadow: 5px 5px 5px 5px #dbdbdb;
@@ -159,5 +159,6 @@ img {
   .modal {
     width: 100%;
     text-align: center;
+    margin: 120px
   }
 }
