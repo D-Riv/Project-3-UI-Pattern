@@ -4,6 +4,7 @@
 # Description
 
 This web app utilizes the modal ui pattern for displaying super hero images and bio through JavaScript DOM manipulation. The api utlized for this project is the SuperHero api.
+Deployed site: https://ui-pattern-project.netlify.com/
 
 ### Built With ###
 * HTML
