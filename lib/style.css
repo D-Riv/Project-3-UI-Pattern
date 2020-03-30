@@ -43,10 +43,10 @@ li {
   font-weight: bold;
   font-size: 20px;
 }
-.li:hover {
+/* .li:hover {
   color: #7c7c7c;
   cursor: pointer;
-}
+} */
 
 .pop-up {
   text-decoration: none;
@@ -115,18 +115,24 @@ img {
   align-items: center;
   margin: 50px 0;
 }
+.modal-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 .modal {
   display: none;
   position: fixed;
   z-index: 1;
-  left: 0;
+  /* left: 0; */
   top: 0;
   width: 700px;
   height: 500px;
   overflow: auto;
   /* background-color: 0,0,0,0.5 */
   background-color: #ffffff;
-  margin: 100px 50px 100px 570px;
+  /* margin: 100px 50px 100px 570px; */
+  margin-top: 180px;
   text-align: center;
   /* padding-top: 200px; */
   box-shadow: 5px 5px 5px 5px #dbdbdb;
@@ -153,12 +159,4 @@ img {
   text-align: center;
 }
 
-@media screen and (max-width: 800px) {
-  img,
-  header,
-  .modal {
-    width: 100%;
-    text-align: center;
-    margin: 120px
-  }
-}
+
