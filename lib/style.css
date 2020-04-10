@@ -46,7 +46,7 @@ body {
   background-color: #000000;
   border-radius: 1rem;
   padding: 30px;
-  height: 50%;
+  height: 58%;
   width: 300px;
 }
 .searched-image {
@@ -54,6 +54,9 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 10%;
+}
+.searched-name {
+  color: #ffffff;
 }
 .header-display {
   display: flex;
@@ -215,3 +218,4 @@ p {
 .fa-arrow-left:hover {
   color: #546e7a;
 }
+
