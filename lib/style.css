@@ -39,7 +39,26 @@ body {
 ::placeholder {
   color: #ffffff;
 }
-
+.display-search-result {
+  position: absolute;
+  right: 250px;
+  margin: 50px;
+  background-color: #000000;
+  border-radius: 1rem;
+  padding: 30px;
+  height: 50%;
+  width: 300px;
+}
+.searched-image {
+  margin-top: 15px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+}
+.header-display {
+  display: flex;
+  flex-direction: column;
+}
 ul {
   display: flex;
   justify-content: center;
