@@ -209,3 +209,9 @@ p {
   color: #ffffff;
   margin: 0 20px;
 }
+.fa-arrow-left {
+  font-size: 50px;
+}
+.fa-arrow-left:hover {
+  color: #546e7a;
+}
